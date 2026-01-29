@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Suhaib | Calligraphy & Graffiti Artist</title>
+    <meta name="description" content="Portfolio of Muhammed Suhaib - Visual Typographic Specialist blending Classical Arabic Calligraphy and Modern Graffiti.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Reem+Kufi:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="logo">SUHAIB<span class="dot">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="hero-bg">
+            <img src="assets/hero-bg.png" alt="Calligraphy vs Graffiti Background">
+            <div class="overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Muhammed Suhaib">Muhammed Suhaib</h1>
+            <p class="subtitle">Visual Typographic Specialist</p>
+            <div class="hero-tags">
+                <span class="tag gold">Classical Calligraphy</span>
+                <span class="separator">x</span>
+                <span class="tag neon">Modern Graffiti</span>
+            </div>
+            <a href="#contact" class="cta-btn">Start a Project</a>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">The Dual Identity</h2>
+            <div class="duality-container">
+                <div class="persona classic">
+                    <div class="persona-img-card">
+                        <img src="assets/calligraphy.png" alt="Classical Calligraphy">
+                    </div>
+                    <h3>The Calligrapher</h3>
+                    <p>Rooted in the sacred geometry of Thuluth, Diwani, and Kufic scripts. My work honors the heritage of harmonious proportions, creating designs that breathe with rhythm and spiritual precision.</p>
+                    <ul class="skills-list">
+                        <li><i class="fas fa-pen-fancy"></i> Traditional Scripts</li>
+                        <li><i class="fas fa-star"></i> Brand Identity</li>
+                        <li><i class="fas fa-mosque"></i> Sacred Art</li>
+                    </ul>
+                </div>
+                <div class="divider-vertical"></div>
+                <div class="persona modern">
+                    <div class="persona-img-card">
+                        <img src="assets/graffiti.png" alt="Modern Graffiti">
+                    </div>
+                    <h3>The Muralist</h3>
+                    <p>Breaking the grid with expressive freedom. I transform urban spaces using raw energy, vibrant letter distortion, and digital aesthetics, speaking the language of the contemporary street.</p>
+                    <ul class="skills-list">
+                        <li><i class="fas fa-spray-can"></i> Calligraffiti Murals</li>
+                        <li><i class="fas fa-bolt"></i> Digital Glitch Art</li>
+                        <li><i class="fas fa-tshirt"></i> Apparel Graphics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title">Selected Works</h2>
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="classical">Classical</button>
+                <button class="filter-btn" data-filter="urban">Urban</button>
+            </div>
+            <div class="gallery-grid">
+                <!-- Using assets as placeholders for now, in real life these would be different project images -->
+                <div class="gallery-item" data-category="classical">
+                    <img src="assets/calligraphy.png" alt="Classical Project 1">
+                    <div class="item-overlay">
+                        <h4>Royal Branding</h4>
+                        <p>Thuluth Script Logo</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="urban">
+                    <img src="assets/graffiti.png" alt="Urban Project 1">
+                    <div class="item-overlay">
+                        <h4>City Walls</h4>
+                        <p>Street Art Festival mural</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="classical">
+                    <img src="assets/calligraphy.png" alt="Classical Project 2">
+                    <div class="item-overlay">
+                        <h4>Sacred Manuscript</h4>
+                        <p>Gold Leaf Composition</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="urban">
+                    <img src="assets/hero-bg.png" alt="Urban Project 2">
+                    <div class="item-overlay">
+                        <h4>Digital Fusion</h4>
+                        <p>Album Cover Art</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Let's Create</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Available for commissions, murals, and brand collaborations.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/suhaib_kolathur/?hl=en" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/muhammed-suhaib-975707342" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.behance.net/suaibkolathur/stock" target="_blank" class="social-icon"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Project Details" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Muhammed Suhaib. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
